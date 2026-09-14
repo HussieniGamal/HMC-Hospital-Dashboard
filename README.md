@@ -1,123 +1,91 @@
-# 🏥 HMC Hospital Dashboard
+# 🏥 HMC Hospital Analytics Dashboard | Power BI
 
-## 📌 Project Overview
+A healthcare analytics portfolio project built in **Power BI** to turn hospital activity data into clear management insights across patients, departments, diagnoses, doctors, and operational performance.
 
-This project is a comprehensive healthcare analytics dashboard built using Power BI to analyze hospital performance, patient data, and operational efficiency.
+<p align="center">
+  <img src="cover.png" width="100%" alt="HMC Hospital Dashboard Cover">
+</p>
 
-The dashboard helps hospital management improve decision-making, optimize resources, and enhance patient outcomes through data-driven insights.
+<p align="center">
+  <a href="https://raw.githubusercontent.com/HussieniGamal/HMC-Hospital-Dashboard/main/HMC%20Hospital.pbix">
+    <img src="https://img.shields.io/badge/Download-Power%20BI%20File-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Download Power BI File">
+  </a>
+  <a href="https://raw.githubusercontent.com/HussieniGamal/HMC-Hospital-Dashboard/main/HMC%20Hospital%202.pdf">
+    <img src="https://img.shields.io/badge/View-PDF%20Report-DC3545?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View PDF Report">
+  </a>
+</p>
 
----
+## 📊 Project Snapshot
 
-## 🎯 Objectives
+| KPI | Value |
+|---|---:|
+| Total Cases | **1,000** |
+| Average Age | **46** |
+| Average Stay | **15 days** |
+| Returning Patients | **51%** |
 
-* Analyze patient cases and medical diagnoses
-* Evaluate department performance
-* Track doctor productivity
-* Understand patient demographics and trends
+## 🎯 Business Questions
 
----
+The dashboard was designed to help answer questions such as:
 
-## 🛠️ Tools Used
+- Which departments handle the highest patient volume?
+- What diagnoses appear most frequently?
+- Which patient age groups drive the most healthcare demand?
+- How does doctor workload vary across surgeries and referrals?
+- Where are there opportunities to improve patient outcomes and resource allocation?
 
-* Power BI (Data Visualization)
-* Excel (Data Source & Cleaning)
+## 💡 Key Insights
 
----
+### Department Performance
+**Internal Medicine** is the busiest department in the dataset, indicating strong demand for chronic-disease management and capacity planning.
 
-## 📊 Key Metrics
+### Common Diagnoses
+**Hypertension, Diabetes, and Fractures** are among the most frequent diagnoses, highlighting the importance of chronic-care and preventive-health programs.
 
-* **Total Cases:** 1000
-* **Average Age:** 46
-* **Average Stay:** 15 days
-* **Returning Patients:** 51%
+### Patient Demographics
+The largest patient concentration is in the **56–75 age group**, suggesting higher healthcare demand among older patients.
 
----
+### Doctor Performance
+Performance varies across surgeries and referrals, creating an opportunity to review workload distribution and operational capacity.
 
-## 📈 Key Insights
+### Patient Outcomes
+Discharge status is relatively balanced, indicating room to investigate treatment efficiency and recovery outcomes in more detail.
 
-### 🏥 Department Performance
+## ✅ Management Recommendations
 
-* Internal Medicine is the busiest department with the highest number of cases.
-* Indicates strong demand for chronic disease management.
+- Review staffing and capacity in Internal Medicine.
+- Support preventive-care programs for chronic conditions.
+- Balance doctor workload across departments and case types.
+- Monitor patient recovery and discharge outcomes with dedicated KPIs.
+- Use department-level trends to support resource planning.
 
----
+## 🖼️ Dashboard Pages
 
-### 🧬 Common Diagnoses
+### General Analysis
+<p align="center"><img src="general.png" width="100%" alt="General Analysis"></p>
 
-* Hypertension, Diabetes, and Fractures are the most frequent diagnoses.
-* Reflects a high prevalence of chronic conditions.
+### Patient Analysis
+<p align="center"><img src="patient.png" width="100%" alt="Patient Analysis"></p>
 
----
+### Department Analysis
+<p align="center"><img src="department.png" width="100%" alt="Department Analysis"></p>
 
-### 👥 Patient Demographics
+### Doctor Analysis
+<p align="center"><img src="doctor.png" width="100%" alt="Doctor Analysis"></p>
 
-* Majority of patients fall within the 56–75 age group.
-* Indicates increased healthcare demand among older populations.
+## 🛠️ Tools & Skills
 
----
+`Power BI` `Excel` `Data Visualization` `Healthcare Analytics` `KPI Design` `Business Analysis` `Data Storytelling`
 
-### 👨‍⚕️ Doctor Performance
+## 📁 Project Files
 
-* Variation in doctor performance across surgeries and referrals.
-* Highlights opportunities for better workload distribution.
-
----
-
-### 📉 Patient Outcomes
-
-* Patient discharge status is relatively balanced.
-* Suggests room for improving treatment efficiency and recovery rates.
-
----
-
-## 💡 Business Recommendations
-
-* Increase capacity and staffing in Internal Medicine department
-* Implement preventive healthcare programs for chronic diseases
-* Optimize doctor workload distribution across departments
-* Improve treatment protocols to enhance patient recovery outcomes
-
----
-
-## 📊 Dashboard Preview
-
-### 🏠 Home
-
-![Home](cover.png)
-
----
-
-### 📊 General Analysis
-
-![General](general.png)
-
----
-
-### 👥 Patient Analysis
-
-![Patient](cases.png)
-
----
-
-### 🏥 Department Analysis
-
-![Department](department.png)
-
----
-
-### 👨‍⚕️ Doctor Analysis
-
-![Doctor](doctor.png)
-
----
-
-## 🚀 Conclusion
-
-This dashboard provides a clear view of hospital operations and helps stakeholders identify trends, improve efficiency, and make informed decisions based on data.
-
----
+- **[Power BI report (.pbix)](https://raw.githubusercontent.com/HussieniGamal/HMC-Hospital-Dashboard/main/HMC%20Hospital.pbix)**
+- **[PDF dashboard export](https://raw.githubusercontent.com/HussieniGamal/HMC-Hospital-Dashboard/main/HMC%20Hospital%202.pdf)**
+- Dashboard screenshots are included in the repository for quick review.
 
 ## 👤 Author
 
-**Hussini Eltawil**
-Data Analyst | Power BI | SQL | Excel
+**Hussieni Gamal**  
+Data Analyst | Business Intelligence | Power BI | SQL | Excel | Python
+
+[LinkedIn](https://www.linkedin.com/in/hussieni-gamal-549b68134/) • [GitHub Profile](https://github.com/HussieniGamal) • [Portfolio](https://sites.google.com/view/hussienigamal/home)
