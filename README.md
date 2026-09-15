@@ -1,5 +1,17 @@
 # 🏥 HMC Hospital Analytics Dashboard | Power BI
 
+## Business value at a glance
+
+**Decision:** Where should hospital managers investigate patient volume and workload distribution?
+
+- Summarizes **1,000 cases**, a reported **15-day average stay**, and **51% returning patients**.
+- Identifies Internal Medicine as the busiest department in the dataset.
+- Supports follow-up questions about department capacity, case mix, and workload allocation.
+
+**Inspect the work:** [Dashboard overview](general.png) · [Patient analysis](patient.png) · [Download Power BI report](https://raw.githubusercontent.com/HussieniGamal/HMC-Hospital-Dashboard/main/HMC%20Hospital.pbix)
+
+**Interpretation:** Returning patients are not automatically readmissions. Counts of surgeries or referrals describe activity, not clinical quality. These findings do not establish improvements in treatment outcomes or reduced length of stay.
+
 A healthcare analytics portfolio project built in **Power BI** to turn hospital activity data into clear management insights across patients, departments, diagnoses, doctors, and operational performance.
 
 <p align="center">
@@ -37,7 +49,7 @@ The dashboard was designed to help answer questions such as:
 ## 💡 Key Insights
 
 ### Department Performance
-**Internal Medicine** is the busiest department in the dataset, indicating strong demand for chronic-disease management and capacity planning.
+**Internal Medicine** is the busiest department in the dataset, making it a starting point for a capacity and case-mix review.
 
 ### Common Diagnoses
 **Hypertension, Diabetes, and Fractures** are among the most frequent diagnoses, highlighting the importance of chronic-care and preventive-health programs.
@@ -45,11 +57,11 @@ The dashboard was designed to help answer questions such as:
 ### Patient Demographics
 The largest patient concentration is in the **56–75 age group**, suggesting higher healthcare demand among older patients.
 
-### Doctor Performance
-Performance varies across surgeries and referrals, creating an opportunity to review workload distribution and operational capacity.
+### Doctor Activity
+Recorded surgeries and referrals vary across doctors. Review workload alongside case complexity, specialties, and staffing before interpreting these counts.
 
 ### Patient Outcomes
-Discharge status is relatively balanced, indicating room to investigate treatment efficiency and recovery outcomes in more detail.
+The dashboard compares discharge status. Clinical outcome interpretation requires defined categories, case-mix adjustment, and additional clinical context.
 
 ## ✅ Management Recommendations
 
